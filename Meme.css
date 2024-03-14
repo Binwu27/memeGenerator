@@ -1,0 +1,45 @@
+form {
+  margin-bottom: 10px;
+}
+.meme-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.meme {
+  position: relative;
+  margin: 10px;
+  width: 350px;
+  text-align: center;
+}
+.meme img {
+  width: 100%;
+  height: auto;
+}
+
+.top-text,
+.bottom-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+}
+.top-text {
+  position: absolute;
+  top: 0;
+}
+.bottom-text {
+  position: absolute;
+  bottom: 40px;
+}
+button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: greenyellow;
+}
